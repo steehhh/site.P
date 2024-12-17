@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    color: #72868b;
+}
+
+header {
+    position: fixed;
+    gap: 40px;
+    top: 0;
+    width: 100%;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header nav {
+    font-family: 'Anton', sans-serif;
+    align-items: center;
+    display: flex;
+    gap: 0px; 
+
+}
+
+header div {  
+    font-family: 'Anton', sans-serif;
+    margin-left: 160px;
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #012846; 
+}
+
+header nav a {
+    margin-right: 100px;
+    letter-spacing: -0.8px;
+    text-decoration: none;
+    color: #294a64;
+    font-size: 1.6em;
+    padding: 0px 0px;
+    text-align: center;
+    font-weight: bold; 
+}
+
+header nav a.btn-agende {
+    padding: 24px 30px;
+    background-color: #0e3c5e;
+    border: none;
+    font-weight: bold; 
+    border-radius: 60px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header nav a.btn-agende:hover {
+    background-color: rgba(3, 31, 63, 0.897);
+}
+
+
+.hero {
+    height: 100vh;
+    background-color: #72868b;
+    filter: brightness(100%);
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 6em;
+    position: absolute;
+    right: 1150px;
+    top: 200px;
+    margin: 0;
+    color: #012846;
+}
+
+.hero p {
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 170px;
+    margin-right: 750px;
+    color: #294a64;
+}
+
+.imagem-direita {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.imagem-direita img {
+    position: absolute;
+    width: 30%; 
+    height: 80vh;
+    bottom: 100px;
+    right: 200px;
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
