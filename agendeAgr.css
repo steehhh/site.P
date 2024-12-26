@@ -57,12 +57,6 @@ header nav a {
     font-weight: bold; 
 }
 
-header nav a.active {
-    border-bottom: 3px solid #0e3c5e; 
-    padding-bottom: 5px; 
-    color: #0e3c5e; 
-}
-
 header nav a.btn-agende {
     padding: 24px 30px;
     background-color: #0e3c5e;
@@ -79,7 +73,6 @@ header nav a.btn-agende {
 header nav a.btn-agende:hover {
     background-color: rgba(3, 31, 63, 0.897);
 }
-
 
 .hero {
     height: 100vh;
@@ -98,10 +91,10 @@ header nav a.btn-agende:hover {
 .hero h1 {
     font-weight: bold;
     font-family: 'Anton', sans-serif;
-    font-size: 6em;
+    font-size: 5.3em;
     position: absolute;
-    right: 1150px;
-    top: 200px;
+    right: 1300px;
+    top: 250px;
     margin: 0;
     color: #012846;
 }
@@ -111,69 +104,12 @@ header nav a.btn-agende:hover {
     font-weight: bold;
     font-family: 'Anton', sans-serif;
     font-size: 1.7em;
-    margin-bottom: 170px;
-    margin-right: 750px;
-    color: #294a64;
+    margin-bottom: 130px;
+    margin-right: 1050px;
+    color: #1e374b;
 }
 
-.imagem-direita {
-    flex: 1;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-}
 
-.imagem-direita img {
-    position: absolute;
-    width: 30%; 
-    height: 80vh;
-    bottom: 100px;
-    right: 200px;
-    object-fit: cover; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-
-.section1 {
-    height: 50vh;  
-    justify-content: space-between; 
-    align-items: center; 
-    background:  linear-gradient(rgba(2, 35, 105, 0.349), rgba(12, 30, 78, 0.5)),
-      url('./imag/cadeiras.png') no-repeat center center;
-      filter: brightness(100%);
-    display: flex;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.section1 h1 {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    font-size: 6em;
-    color: #ffffff;
-}
-
-.btn-agende {
-    padding: 30px 100px;
-    background-color: #0e3c5e; 
-    border: none;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif; 
-    border-radius: 60px;
-    font-size: 1.4em;
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-agende:hover {
-    background-color: rgba(3, 31, 63, 0.897); 
-}
 
 footer {
     background-color: #72868b;
@@ -245,5 +181,3 @@ footer p {
     transform: scale(1.3);
     filter: brightness(1.0);
 }
-
-

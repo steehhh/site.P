@@ -8,12 +8,14 @@
 </head>
 <body>
     <header>
-        <div> Natália Kieling...</div>
+        <div>
+            <a href="Home.html" class="logo-btn">Natália Kieling...</a>
+        </div>
         <nav>
-            <a href="#section1">Serviços</a>
-            <a href="#section2">Quem Somos</a>
-            <a href="#section3">Contato</a>
-            <a href="#section3" class="btn-agende">Agende agora</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="quemSomos.html">Quem Somos</a>
+            <a href="contato.html">Contato</a>
+            <a class="btn-agende" onclick="window.location.href='agendeAgr.html'">Agende agora</a>
         </nav>
     </header>
 
@@ -28,6 +30,8 @@
         <p>Na nossa clínica,<br>oferecemos serviços de psicologia fundamentados<br> em rigorosos padrões científicos,  <br>
         buscando promover a saúde mental <br>e o bem-estar emocional de nossos clientes. <br> Contamos com uma equipe altamente qualificada, <br> 
         dedicada a proporcionar atendimentos personalizados<br> para cada necessidade.
+        </p>
+        <button onclick="window.location.href='quemSomos.html'" class="btn-saiba">SAIBA MAIS</button>
     </section>
 
     <section id="section2" class="section2">
@@ -44,7 +48,8 @@
     <section id="section3" class="section3">
         <div class="redes-sociais-texto">
             <h2>Siga-nos nas redes sociais</h2>
-            <a href="#section3" class="btn-redesSociais">REDES SOCIAIS</a>
+            <a href="https://www.instagram.com/nataliakpsi/" class="btn-redesSociais">REDES SOCIAIS</a>
+
         </div>
         <div class="container">
             <img class="foto grande" src="./imag/cadeira.png" alt="Foto 1">
@@ -59,7 +64,6 @@
             <div class="left-content">
                 <h2>Fale conosco</h2>
                 <form>
-                    <label>Nome <span>(obrigatório)</span></label>
                     <label1>Nome *</label1>
                     <label2>Sobrenome *</label2>
                     <div class="form-grupo">
@@ -87,7 +91,19 @@
     
 
     <footer>
-        <p>&copy; 2024 Bem-Estar que Começa na Mente. Todos os direitos reservados.</p>
+        <h2>Título do seu site</h2>
+        <p>Cadastre seu endereço de e-mail para receber novidades e<br> atualizações.</p>
+        <div class="email-container">
+            <input type="email" placeholder="Endereço de e-mail" />
+            <button>CADASTRE-SE</button>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/nataliakpsi/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+            </a>
+        </div>
     </footer>
+    
+    
 </body>
 </html>

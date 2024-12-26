@@ -82,7 +82,7 @@ header nav a.btn-agende:hover {
 
 
 .hero {
-    height: 100vh;
+    height: 180vh;
     background-color: #72868b;
     filter: brightness(100%);
     display: flex;
@@ -98,7 +98,7 @@ header nav a.btn-agende:hover {
 .hero h1 {
     font-weight: bold;
     font-family: 'Anton', sans-serif;
-    font-size: 6em;
+    font-size: 5.7em;
     position: absolute;
     right: 1150px;
     top: 200px;
@@ -111,27 +111,201 @@ header nav a.btn-agende:hover {
     font-weight: bold;
     font-family: 'Anton', sans-serif;
     font-size: 1.7em;
-    margin-bottom: 170px;
-    margin-right: 750px;
-    color: #294a64;
+    margin-bottom: 150px;
+    margin-left: 940px;
+    color: #283e50;
 }
 
-.imagem-direita {
-    flex: 1;
+.hero .photo-container {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 490px; 
 }
 
-.imagem-direita img {
-    position: absolute;
-    width: 30%; 
-    height: 80vh;
-    bottom: 100px;
-    right: 200px;
+.hero .photo-container img {
+    width: 400px; 
+    height: 550px; 
     object-fit: cover; 
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.hero .photo-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.textos-serviços {
+    display: flex;
+    text-align: left; 
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.texto1 h1 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    position: absolute;
+    right: 1370px;
+    top: 1110px;
+    margin: 0;
+    color: #012846;
+}
+
+.texto1 p{
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4em;
+    position: absolute;
+    right: 1470px;
+    top: 1300px;
+    margin: 0;
+    color: #222f3a;
+}
+
+.descricao {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    right: 1270px;
+    top: 1360px;
+    margin: 0;
+    color: #222f3a;
+}
+
+
+.texto2 h1 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    position: absolute;
+    right: 960px;
+    top: 1110px;
+    margin: 0;
+    color: #012846;
+}
+
+.texto2 p {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4em;
+    position: absolute;
+    right: 1010px;
+    top: 1300px;
+    margin: 0;
+    color: #222f3a;
+}
+
+.descricao2 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    right: 750px;
+    top: 1360px;
+    margin: 0;
+    color: #222f3a;
+}
+
+.texto3 h1 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    position: absolute;
+    right: 400px;
+    top: 1110px;
+    margin: 0;
+    color: #012846;
+}
+
+.texto3 p {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4em;
+    position: absolute;
+    right: 540px;
+    top: 1300px;
+    margin: 0;
+    color: #222f3a;
+}
+
+.descricao3 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    right: 295px;
+    top: 1360px;
+    margin: 0;
+    color: #222f3a;
+}
+
+.btn-agende1 {
+    padding: 24px 30px;
+    position: absolute;
+    right: 1370px;
+    top: 1550px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    background-color: #0e3c5e;
+    border: none;
+    font-weight: bold; 
+    border-radius: 60px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-agende1:hover {
+    background-color: rgba(3, 31, 63, 0.897);
+}
+
+.btn-agende2 {
+    padding: 24px 30px;
+    position: absolute;
+    right: 900px;
+    top: 1550px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    background-color: #0e3c5e;
+    border: none;
+    font-weight: bold; 
+    border-radius: 60px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-agende2:hover {
+    background-color: rgba(3, 31, 63, 0.897);
+}
+
+.btn-agende3 {
+    padding: 24px 30px;
+    position: absolute;
+    right: 400px;
+    top: 1550px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    background-color: #0e3c5e;
+    border: none;
+    font-weight: bold; 
+    border-radius: 60px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .section1 {
@@ -164,7 +338,7 @@ header nav a.btn-agende:hover {
     font-weight: bold;
     font-family: 'Anton', sans-serif; 
     border-radius: 60px;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;

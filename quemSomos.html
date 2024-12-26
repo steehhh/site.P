@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Somos ― </title>
-    <link rel="stylesheet" href="quemSomos.css">  
+    <link rel="stylesheet" href="quemSomos.css">
+    <script src="funcionamento.js"></script>  
 </head>
 
 <body>
     <header>
-        <div> Natália Kieling...</div>
+        <div>
+            <a href="Home.html" class="logo-btn">Natália Kieling...</a>
+        </div>
         <nav>
-            <a href="#section1">Serviços</a>
-            <a href="#section2">Quem Somos</a>
-            <a href="#section3">Contato</a>
-            <a href="#section3" class="btn-agende">Agende agora</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="quemSomos.html" class="active">Quem Somos</a>
+            <a href="contato.html">Contato</a>
+            <a class="btn-agende" onclick="window.location.href='agendeAgr.html'">Agende agora</a>
         </nav>
     </header>
 
@@ -35,10 +38,23 @@
         </div>
     </div>
 
-
+    <section id="section1" class="section1">
+        <h1>Primeiros Passos</h1>
+        <button onclick="window.location.href='serviços.html'" class="btn-agende">VER SERVIÇOS</button>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Bem-Estar que Começa na Mente. Todos os direitos reservados.</p>
+        <h2>Título do seu site</h2>
+        <p>Cadastre seu endereço de e-mail para receber novidades e<br> atualizações.</p>
+        <div class="email-container">
+            <input type="email" placeholder="Endereço de e-mail" />
+            <button>CADASTRE-SE</button>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/nataliakpsi/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+            </a>
+        </div>
     </footer>
 
 </body>
