@@ -9,29 +9,36 @@ header {
     gap: 40px;
     top: 0;
     width: 100%;
-    padding: 60px 40px;
+    padding: 10px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    background-color: transparent; 
+    transition: background-color 0.4s ease-in-out;
+}
+
+header.scrolled {
+    background-color: #69a7bf; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.281); 
 }
 
 .logo-btn {
     text-decoration: none; 
     color: #ffffff; 
-    font-family: 'Anton', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3em; 
-    font-weight: bold; 
+    font-weight: lighter; 
     cursor: pointer; 
     transition: color 0.5s; 
 }
 
 .logo-btn:hover {
-    color: #0e3c5e; 
+    color: #4189a6; 
 }
 
 header nav {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
     display: flex;
     gap: 0px; 
@@ -39,18 +46,18 @@ header nav {
 }
 
 header div {  
-    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 160px;
     font-size: 3.4em;
     font-weight: bold;
-    color: #012846; 
+    color: #ffffff; 
 }
 
 header nav a {
     margin-right: 100px;
     letter-spacing: -0.8px;
     text-decoration: none;
-    color: #294a64;
+    color: #ffffff;
     font-size: 1.6em;
     padding: 0px 0px;
     text-align: center;
@@ -58,18 +65,19 @@ header nav a {
 }
 
 header nav a.active {
-    border-bottom: 3px solid #0e3c5e; 
+    border-bottom: 3px solid #245c73; 
     padding-bottom: 5px; 
-    color: #0e3c5e; 
+    color: #ffffff; 
 }
 
 header nav a.btn-agende {
     padding: 24px 30px;
-    background-color: #0e3c5e;
+    background-color: #4189a6;
     border: none;
-    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     border-radius: 60px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -77,13 +85,13 @@ header nav a.btn-agende {
 }
 
 header nav a.btn-agende:hover {
-    background-color: rgba(3, 31, 63, 0.897);
+    background-color: #656565;
 }
 
 
 .hero {
     height: 100vh;
-    background-color: #72868b;
+    background-color: #69a7bf;
     filter: brightness(100%);
     display: flex;
     background-size: cover;
@@ -97,23 +105,23 @@ header nav a.btn-agende:hover {
 
 .hero h1 {
     font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    font-size: 6em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.3em;
     position: absolute;
-    right: 1150px;
+    right: 1280px;
     top: 200px;
     margin: 0;
-    color: #012846;
+    color: #245c73;
 }
 
 .hero p {
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    font-size: 1.7em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
     margin-bottom: 170px;
-    margin-right: 750px;
-    color: #294a64;
+    margin-right: 800px;
+    color: #ffffffd3;
 }
 
 .imagem-direita {
@@ -151,20 +159,20 @@ header nav a.btn-agende:hover {
 }
 
 .section1 h1 {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    font-size: 6em;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.5em;
     color: #ffffff;
 }
 
 .btn-agende {
     padding: 30px 100px;
-    background-color: #0e3c5e; 
+    background-color: #4189a6; 
     border: none;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif; 
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif; 
     border-radius: 60px;
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -172,24 +180,26 @@ header nav a.btn-agende:hover {
 }
 
 .btn-agende:hover {
-    background-color: rgba(3, 31, 63, 0.897); 
+    background-color: #656565; 
 }
 
 footer {
-    background-color: #72868b;
-    color: #012846;
+    background-color: #69a7bf;
+    color: #245c73;
     text-align: center;
     padding: 50px 20px;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
 }
 
 footer h2 {
     font-size: 70px;
     margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer p {
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     margin-bottom: 21px;
 }
@@ -203,8 +213,8 @@ footer p {
 }
 
 .email-container input {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     padding: 20px 20px;
     font-size: 17px;
@@ -214,9 +224,9 @@ footer p {
 }
 
 .email-container button {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    background-color: #5b747c;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4189a6;
     color: rgb(255, 255, 255);
     border: none;
     padding: 25px 30px;
@@ -227,7 +237,7 @@ footer p {
 }
 
 .email-container button:hover {
-    background-color: #394e55;
+    background-color: #656565;
 }
 
 .social-icons {

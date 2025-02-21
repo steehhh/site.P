@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento ― </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="agendeAgr.css">  
 </head>
 
@@ -15,7 +16,6 @@
         <nav>
             <a href="serviços.html">Serviços</a>
             <a href="quemSomos.html">Quem Somos</a>
-            <a href="contato.html">Contato</a>
             <a href="agendeAgr.html" class="btn-agende">Agende agora</a>
         </nav>
     </header>
@@ -49,6 +49,16 @@
         </div>
     </footer>
 
-    <script src="funcionamento.js"></script>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            let header = document.querySelector("header");
+            if (window.scrollY > 50) {  
+                header.classList.add("scrolled");  
+            } else {
+                header.classList.remove("scrolled");  
+            }
+        });
+    </script>
 
 </body>

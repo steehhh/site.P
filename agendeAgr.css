@@ -9,29 +9,37 @@ header {
     gap: 40px;
     top: 0;
     width: 100%;
-    padding: 60px 40px;
+    padding: 10px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    background-color: transparent; 
+    transition: background-color 0.4s ease-in-out;
+}
+
+header.scrolled {
+    background-color: #69a7bf; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.281); 
 }
 
 .logo-btn {
     text-decoration: none; 
     color: #ffffff; 
-    font-family: 'Anton', sans-serif; 
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3em; 
-    font-weight: bold; 
     cursor: pointer; 
     transition: color 0.5s; 
 }
 
 .logo-btn:hover {
-    color: #0e3c5e; 
+    color: #4189a6; 
 }
 
 header nav {
-    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
     display: flex;
     gap: 0px; 
@@ -39,18 +47,19 @@ header nav {
 }
 
 header div {  
-    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 160px;
     font-size: 3.4em;
     font-weight: bold;
-    color: #012846; 
+    color: #ffffff; 
 }
 
 header nav a {
     margin-right: 100px;
     letter-spacing: -0.8px;
     text-decoration: none;
-    color: #294a64;
+    color: #ffffff;
     font-size: 1.6em;
     padding: 0px 0px;
     text-align: center;
@@ -59,7 +68,7 @@ header nav a {
 
 header nav a.btn-agende {
     padding: 24px 30px;
-    background-color: #0e3c5e;
+    background-color: #4189a6;
     border: none;
     font-weight: bold; 
     border-radius: 60px;
@@ -71,12 +80,12 @@ header nav a.btn-agende {
 }
 
 header nav a.btn-agende:hover {
-    background-color: rgba(3, 31, 63, 0.897);
+    background-color: #656565;
 }
 
 .hero {
     height: 100vh;
-    background-color: #72868b;
+    background-color: #69a7bf;
     filter: brightness(100%);
     display: flex;
     background-size: cover;
@@ -100,35 +109,35 @@ header nav a.btn-agende:hover {
 }
 
 .hero h1 {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
+    font-weight:lighter;
+    font-family: 'Montserrat', sans-serif;
     font-size: 5.3em;
     position: absolute;
     right: 1300px;
     top: 250px;
     margin: 0;
-    color: #012846;
+    color: #245c73;
 }
 
 .hero p {
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.7em;
     margin-bottom: 130px;
     margin-right: 1050px;
-    color: #1e374b;
+    color: #ffffffd3;
 }
 
 
 
 footer {
-    background-color: #72868b;
-    color: #012846;
+    background-color: #69a7bf;
+    color: #245c73;
     text-align: center;
     padding: 50px 20px;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
+    font-weight:lighter;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer h2 {
@@ -150,8 +159,8 @@ footer p {
 }
 
 .email-container input {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
+    font-weight:lighter;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     padding: 20px 20px;
     font-size: 17px;
@@ -161,9 +170,9 @@ footer p {
 }
 
 .email-container button {
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-    background-color: #5b747c;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4189a6;
     color: rgb(255, 255, 255);
     border: none;
     padding: 25px 30px;
@@ -174,7 +183,7 @@ footer p {
 }
 
 .email-container button:hover {
-    background-color: #394e55;
+    background-color: #656565;
 }
 
 .social-icons {

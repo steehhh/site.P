@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Somos ― </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="quemSomos.css">
     <script src="funcionamento.js"></script>  
 </head>
@@ -16,7 +17,6 @@
         <nav>
             <a href="serviços.html">Serviços</a>
             <a href="quemSomos.html" class="active">Quem Somos</a>
-            <a href="contato.html">Contato</a>
             <a class="btn-agende" onclick="window.location.href='agendeAgr.html'">Agende agora</a>
         </nav>
     </header>
@@ -33,7 +33,7 @@
                 </p>
             </div>
             <div class="imagem-direita">
-                <img src="./imag/bola.png" alt="Imagem representativa" />
+                <img src="./imag/freepik__enhance__30002.png" alt="Imagem representativa" />
             </div>
         </div>
     </div>
@@ -56,6 +56,17 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            let header = document.querySelector("header");
+            if (window.scrollY > 50) {  
+                header.classList.add("scrolled");  
+            } else {
+                header.classList.remove("scrolled");  
+            }
+        });
+    </script>
 
 </body>
 </html>
